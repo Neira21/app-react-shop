@@ -1,0 +1,27 @@
+{
+  "name": "app-react-shop",
+  "version": "1.0.0",
+  "description": "react eshop",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neira21/app-react-shop.git"
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "Alvaro Neira <alvaroneira98@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neira21/app-react-shop/issues"
+  },
+  "homepage": "https://github.com/Neira21/app-react-shop#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
