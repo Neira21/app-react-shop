@@ -13,14 +13,19 @@ const MyOrder = () => {
 				<p className="title">My order</p>
 			</div>
 			<div className="my-order-content">
-				<p>{state.cart.length}</p>
-				<OrderItem/>
-				
+				<div className="seccion-scroll">
+					{state.cart.map((product, index) => (
+						<OrderItem product={product} key={index}/>
+					))}
+				</div>
+			
 				<div className="order">
 					<p>
 						<span>Total</span>
 					</p>
-					<p>$560.00</p>
+					<p>
+						${state.cart.reduce((total, product) => total + product.price, 0)}
+					</p>
 				</div>
 				<button className="primary-button">
 					Checkout
